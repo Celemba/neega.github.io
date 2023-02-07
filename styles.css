@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #242424;
+    font-family: poppins;
+    font-size: 18px;
+}
+
+body {
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+
+    /* ======================= nav styles ======================= */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin: 30px 50px;
+    font-family: poppins;
+    font-size: 17px;
+   
+}
+
+ /* nav lofo styles */
+
+.logo {
+    text-decoration: none;
+    letter-spacing: 0.6px;
+    font-size: 400;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+li {
+    margin: 0 10px;
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+
+}
